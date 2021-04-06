@@ -114,7 +114,7 @@ vi &getNIntFromFile(const int &n, fstream &File)
 int main()
 {
     fstream file("generatednumbers.txt", ios::out);
-    fstream jsonfile("data.JSON", ios::out);
+    fstream jsonfile("data.json", ios::out);
     writeNRandomlyNumbersInFile(10000000, file);
 
     HeapSort obj;
@@ -191,10 +191,10 @@ int main()
 
 
     string json="{\n"
-                "\"n\": ["+ns.substr(0,ns.length()-1)+"],\n"
-                "\"insert\": ["+hi.substr(0,ns.length()-1)+"],\n"
-                "\"heapfiy\": ["+hh.substr(0,ns.length()-1)+"],\n"
-                "\"heapsort\": ["+h.substr(0,ns.length()-1)+"]\n"
+                "\"n\": ["+(ns.substr(0,ns.length()-1))+"],\n"
+                "\"insert\": ["+(hi.substr(0,hi.length()-1))+"],\n"
+                "\"heapfiy\": ["+(hh.substr(0,hh.length()-1))+"],\n"
+                "\"heapsort\": ["+(h.substr(0,h.length()-1))+"]\n"
                 "}";
     jsonfile<<json;
 
