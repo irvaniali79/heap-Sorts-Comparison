@@ -1,6 +1,6 @@
 <template>
-  <div id="chart">
-    <apexchart type="line" height="350" :options="chartOptions" :series="series"></apexchart>
+  <div id="chart" class="rounded">
+    <apexchart type="line" height="450"  :options="chartOptions" :series="series"></apexchart>
   </div>
 </template>
 
@@ -8,6 +8,7 @@
 
 
 export default {
+
 
   data() {
     return {
@@ -72,6 +73,7 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+
 }
 a {
   color: #42b983;
