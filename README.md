@@ -1,6 +1,11 @@
-
 # heap-Sorts-Comparison
-compare heapsort-with-insert &amp;heapsort-with-heapify
+compare heapsort;insert;heapify
+
+# in fact 
+![image_2021-04-09_22-23-31](https://user-images.githubusercontent.com/66170668/114232692-86742b80-9991-11eb-9033-337bfa9ccb58.png)
+  for see the site click on below link:
+  https://okabe-rintaru.github.io/heap-Sorts-Comparison/
+
 
 # in the theory
 - ## insert 
