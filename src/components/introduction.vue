@@ -2,7 +2,7 @@
   <div >
 
     <div class="row mt-3">
-      <h1 class="p-0 m-0" style="color: rebeccapurple">sorts compare</h1>
+      <h1 class="p-0 m-0" style="color: rebeccapurple">Algorithm Design Project</h1>
     </div>
 
     <hr>
@@ -41,10 +41,10 @@
 
     <div class="row mt-2 px-3  ">
       <b-progress class=" w-100 p-0">
-        <b-progress-bar :value="25" variant="success" animated striped  >vue</b-progress-bar>
-        <b-progress-bar :value="25" variant="info"  animated striped  >c++</b-progress-bar>
-        <b-progress-bar :value="25" variant="danger" animated striped   >html</b-progress-bar>
-        <b-progress-bar :value="25" variant="warning" animated striped   >JS</b-progress-bar>
+        <b-progress-bar :value="62" variant="success" animated striped  >vue</b-progress-bar>
+        <b-progress-bar :value="28" variant="info"  animated striped  >c++</b-progress-bar>
+        <b-progress-bar :value="5" variant="danger" animated striped   >html</b-progress-bar>
+        <b-progress-bar :value="5" variant="warning" animated striped   >JS</b-progress-bar>
       </b-progress>
 
     </div>
@@ -55,7 +55,7 @@
       <p class="m-0 p-0">
          <span style="color: coral">Professor : </span> <a href="https://www.linkedin.com/in/mehdi-salkhordeh-haghighi-2a339a1a/"> Mr.Salkhorde haghighi</a> <br>
          <span style="color: coral">TA :  </span><a href="https://www.linkedin.com/in/payam-kiyani-pk3440/"> Mr.Kiani </a><br>
-         <span style="color: coral">University : </span> Iran , Mashhad , <a href="https://en.wikipedia.org/wiki/Sadjad_University_of_Technology"> Sadjad University of Technology </a> <br>
+         <span style="color: coral">University : </span>   <a href="https://en.wikipedia.org/wiki/Sadjad_University_of_Technology"> Sadjad University of Technology </a> , Mashhad , Iran <br>
          <span style="color: coral">Released time : </span> 8 Apr 2021
         
       </p>

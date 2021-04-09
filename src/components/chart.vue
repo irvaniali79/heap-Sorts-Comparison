@@ -5,26 +5,27 @@
 </template>
 
 <script>
-
+import json from './data.json'
 
 export default {
 
 
   data() {
     return {
+
       series: [{
-        name: "Desktops",
-        data: [10, 41, 35, 51, 49, 62, 69, 91, 148],
+        name: "Heapfiy",
+        data: json.heapfiy,
 
       },
         {
-          name: "Desktops-2",
-          data: [6, 11, 35, 51, 49, 72, 68, 31, 108],
+          name: "Heapsort",
+          data: json.heapsort,
 
         },
         {
-          name: "Desktops-3",
-          data: [30, 41, 45, 51, 39, 62, 69, 11, 248],
+          name: "Insert",
+          data: json.insert,
 
         }],
       chartOptions: {
@@ -52,7 +53,7 @@ export default {
           },
         },
         xaxis: {
-          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+          categories: json.n,
         }
       },
 
