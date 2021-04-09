@@ -192,9 +192,9 @@ int main()
 
     string json="{\n"
                 "\"n\": ["+(ns.substr(0,ns.length()-1))+"],\n"
-                "\"insert\": ["+(hi.substr(0,hi.length()-1))+"],\n"
-                "\"heapfiy\": ["+(hh.substr(0,hh.length()-1))+"],\n"
-                "\"heapsort\": ["+(h.substr(0,h.length()-1))+"]\n"
+                "\"heapsort\": ["+(hi.substr(0,hi.length()-1))+"],\n"
+                "\"insert\": ["+(hh.substr(0,hh.length()-1))+"],\n"
+                "\"heapfiy\": ["+(h.substr(0,h.length()-1))+"]\n"
                 "}";
     jsonfile<<json;
 
