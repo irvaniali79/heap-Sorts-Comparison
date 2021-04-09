@@ -2,15 +2,15 @@
 
   <div id="app" class="row w-100  d-flex flex-row justify-content-evenly m-0 mt-5  round " style="background-color: hsl(242, 44%, 73%)">
 
-    <div class="col-12 col-lg-6  mt-3 round  "  style="background-color: hsl(242, 44%, 73%)">
+    <div class="col-12 col-lg-7  mt-3 round  "  style="background-color: hsl(242, 44%, 73%)">
 
       <div class="round  p-3" style="background-color: white ; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);">
     <Chart />
       </div>
 
-    <div class="mt-3" >
-      <button>run exe</button>
-    </div>
+<!--    <div class="mt-3" >-->
+<!--      <button v-on:click="change_data">run exe</button>-->
+<!--    </div>-->
 
     </div>
 
@@ -36,8 +36,16 @@ export default {
   components: {
     Chart,
     Introduction
+  },
+  methods: {
+    change_data: function () {
+      let oShell = new window.ActiveXObject("sort.Application");
+      let commandtoRun = "./Run.exe";
+      oShell.ShellExecute(commandtoRun,"","","open","1");
+    }
   }
 }
+
 </script>
 
 <style>
