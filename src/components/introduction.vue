@@ -41,10 +41,10 @@
 
     <div class="row mt-2 px-3  ">
       <b-progress class=" w-100 p-0">
-        <b-progress-bar :value="25" variant="success" animated striped  >vue</b-progress-bar>
-        <b-progress-bar :value="25" variant="info"  animated striped  >c++</b-progress-bar>
-        <b-progress-bar :value="25" variant="danger" animated striped   >html</b-progress-bar>
-        <b-progress-bar :value="25" variant="warning" animated striped   >JS</b-progress-bar>
+        <b-progress-bar :value="62" variant="success" animated striped  >vue</b-progress-bar>
+        <b-progress-bar :value="28" variant="info"  animated striped  >c++</b-progress-bar>
+        <b-progress-bar :value="5" variant="danger" animated striped   >html</b-progress-bar>
+        <b-progress-bar :value="5" variant="warning" animated striped   >JS</b-progress-bar>
       </b-progress>
 
     </div>
