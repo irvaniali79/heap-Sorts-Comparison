@@ -8,7 +8,8 @@
     <hr>
 
     <div class="row mt-2 p-0  ">
-      <div class="col-6  ">
+
+      <div class="col-4  ">
         <div class="row d-flex flex-column justify-content-center  ">
           <img src="../assets/images/photo_2021-04-03_18-53-42.jpg" style="align-self: center" >
         </div>
@@ -23,7 +24,7 @@
       </div>
 
 
-      <div class="col-6  ">
+      <div class="col-4  ">
         <div class="row d-flex flex-column justify-content-center ">
           <img src="../assets/images/photo_2021-04-03_22-37-0222.jpg"  style="align-self: center">
         </div>
@@ -31,6 +32,18 @@
           <p class="m-0 p-0">
             <span style="font-weight: bold">Shahab Shafie </span>   (front + back) <br>
             <span style="color: coral"> Known as : </span><a href="https://github.com/Shhb-Coder-1999" >  Shhb-Coder-1999 </a>
+          </p>
+        </div>
+      </div>
+
+        <div class="col-4  ">
+        <div class="row d-flex flex-column justify-content-center ">
+          <img src="../assets/images/photo_2021-05-15_14-57-00.jpg"   style="align-self: center">
+        </div>
+        <div class="row mt-2 p-0  ">
+          <p class="m-0 p-0">
+            <span style="font-weight: bold">Ali Hoseynian </span>   (back) <br>
+            <span style="color: coral"> Known as : </span><a href="https://github.com/Alihosseinian" >  Alihosseinian </a>
           </p>
         </div>
       </div>

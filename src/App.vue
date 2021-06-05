@@ -14,7 +14,7 @@
 
     </div>
 
-    <div class=" col-10 col-lg-3  mt-5  round mb-5 mb-sm-0  " style="background-color: white; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);">
+    <div class=" col-10 col-lg-4  mt-5  round mb-5 mb-sm-0  " style="background-color: white; box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);">
 
       <Introduction/>
 

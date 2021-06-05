@@ -8,7 +8,6 @@
     "lint": "vue-cli-service lint",
     "deploy": "sh deploy.sh"
   },
-
   "dependencies": {
     "apexcharts": "^3.26.0",
     "bootstrap": "^5.0.0-beta3",
