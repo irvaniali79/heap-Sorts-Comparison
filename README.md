@@ -2,7 +2,8 @@
 compare heapsort;insert;heapify
 
 # in fact 
-![image_2021-04-09_22-23-31](https://user-images.githubusercontent.com/66170668/114232692-86742b80-9991-11eb-9033-337bfa9ccb58.png)
+![des](https://user-images.githubusercontent.com/66170668/120933122-e4ad5880-c70d-11eb-9b23-108dbfdab445.png)
+
   for see the site click on the link:
   https://okabe-rintaru.github.io/heap-Sorts-Comparison/
 
