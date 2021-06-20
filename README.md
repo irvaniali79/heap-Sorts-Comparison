@@ -26,5 +26,5 @@ compare heapsort;insert;heapify
 
   Both sub-algorithms, therefore, have the same time complexity. Hence:
 
-  The time complexity of Heapsort is:O(n log n)
+  The time complexity of Heapsort is:O(n log n) 
   
